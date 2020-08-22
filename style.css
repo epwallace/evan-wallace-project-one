@@ -34,6 +34,7 @@ h1 {
     line-height: 80px;
     text-align: center;
     word-spacing: 9999rem;
+    margi/n-bottom: 30px;
 }
 
 h2 {
@@ -41,9 +42,11 @@ h2 {
     text-align: center;
     text-transform: uppercase;
 }
+
 button,
-.purple-bg {
+h3 span {
     background: #9200ff;
+    padding: 10px 20px;
 }
 
 button {
@@ -73,18 +76,22 @@ header {
     background-position: center;
     background-size: cover;
     height: 90vh;
+    padding-top: 100px;
 }
 
 nav ul {
-    padding-top: 100px;
     text-align: center;
+    text-transform: uppercase;
 }
+
 nav li {
     display: inline-block;
+    padding: 0 20px;
 }
 
 .header-text {
-    padding: 30vh;
+    padding-top: 13vh;
+    padding-bottom: 20vh;
 }
 /* checkerboard area */
 .lineup, .new-experiences, .instagram {
