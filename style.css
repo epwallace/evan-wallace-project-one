@@ -86,6 +86,9 @@ header {
     background-position: center;
     background-size: cover;
     height: 90vh;
+    min-height: 600px;
+    padding-top: 100px;
+}
 
 .mobile-nav-button {
     display: none;
@@ -109,12 +112,17 @@ nav li {
 
 .section-img, .section-text {
     width: 50%;
+    min-height: 600px;
 }
 
 .section-text {
     padding: 100px;
     height: 50vh;
     overflow: scroll;
+}
+
+.section-text p {
+    padding: 20px 0;
 }
 
 .section-img img {
@@ -159,13 +167,26 @@ nav li {
     width: 75%;
     height: 25%;
     padding: 0 0 0 50px;
+    height: 25%;
+    min-height: unset;
+}
+
+.tickets p {
+    padding: 6px 0;
 }
 
 /* midway nav section */
+.midway-nav ul {
+    padding-bottom: 0;
+}
 
 .midway-nav p {
     font-size: 30px;
     font-weight: bold;
+}
+
+.midway-nav a {
+    display: block;
 }
 
 i.fas {
