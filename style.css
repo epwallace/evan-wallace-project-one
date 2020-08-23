@@ -34,7 +34,7 @@ h1 {
     line-height: 80px;
     text-align: center;
     word-spacing: 9999rem;
-    margi/n-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -76,10 +76,10 @@ header {
     background-position: center;
     background-size: cover;
     height: 90vh;
-    padding-top: 100px;
 }
 
 nav ul {
+    padding: 100px 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -89,10 +89,6 @@ nav li {
     padding: 0 20px;
 }
 
-.header-text {
-    padding-top: 13vh;
-    padding-bottom: 20vh;
-}
 /* checkerboard area */
 .lineup, .new-experiences, .instagram {
     background: #0f0632;
