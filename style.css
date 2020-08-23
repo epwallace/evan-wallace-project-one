@@ -149,7 +149,22 @@ nav li {
 
 
 /* instagram */
+.instagram h2 {
+    text-align: center;
+}
+
+.gallery {
+    padding-top: 100px;
+}
+
 .gallery img {
     float: left;
-    width: 20%;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.gallery img:last-child {
+    margin-right: 0;
+}
+
 }
