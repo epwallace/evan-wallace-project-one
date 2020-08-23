@@ -148,6 +148,19 @@ nav li {
     padding: 0 0 0 50px;
 }
 
+/* midway nav section */
+
+.midway-nav p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+i.fas {
+    font-size: 60px;
+    display: block;
+    padding-bottom: 10px;
+}
+
 /* instagram */
 .instagram h2 {
     text-align: center;
