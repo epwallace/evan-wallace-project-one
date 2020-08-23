@@ -46,6 +46,7 @@ h2 {
 button,
 h3 span {
     background: #9200ff;
+    color: #ffffff;
     padding: 10px 20px;
 }
 
@@ -184,4 +185,11 @@ i.fas {
 .contact, .subscription {
     float: left;
     width: 50%;
+}
+
+.subscription input {
+    float: left;
+    width: calc(100% - 167px);  /* 167px is size of SUBSCRIBE button */
+    height: 49px;
+    border: 0;
 }
