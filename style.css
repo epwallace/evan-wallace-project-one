@@ -69,6 +69,15 @@ a {
     color: #ffffff;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
+a:focus {
+    border: 2px solid #ffffff;
+    padding: 2px;
+}
+
 
 /* header area */
 header {
