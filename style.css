@@ -95,7 +95,7 @@ header {
 }
 
 nav ul {
-    padding: 100px 0;
+    padding-bottom: 100px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -231,4 +231,116 @@ i.fas {
     background-color: #130034;
     text-align: center;
     padding: 10px 0;
+}
+
+@media (max-width: 800px) {
+    a:focus {
+        background: rgba(255, 255, 255, 0.5);
+        border: 2px solid white;
+    }
+    .mobile-nav-button {
+        display: block;
+        color: white;
+        font-size: 36px;
+        position: absolute;
+        top: 5%;
+        border-top-right-radius: 5%;
+    }
+
+
+    header nav {
+        visibility: hidden;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .section-text,
+    .section-img {
+        width: 100%;
+        height: unset;
+        min-height: unset;
+    }
+
+    .section-text {
+        padding: 50px;
+    }
+
+    .section-text p {
+        padding: 20px 0;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .wrapper {
+        width: 90%;
+        padding: 50px 0;
+    }
+
+    .tickets img {
+        width: 100%;
+    }
+
+    .tickets .section-text {
+        padding: 5% 0 0 0;
+        width: 100%;
+    }
+
+    .midway-nav li {
+        display: block;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .midway-nav li:last-child {
+        padding-bottom: 0;
+    }
+    .gallery img {
+        width: 47.5%;
+    }
+
+    .gallery img:nth-child(2) {
+        margin-right: 0;
+    }
+    .gallery img:last-child {
+        display: none;
+    }
+
+    footer,
+    footer h2 {
+        text-align: center;
+    }
+
+    footer ul {
+        padding-bottom: 50px;
+    }
+
+    .contact,
+    .subscription {
+        width: 100%;
+    }
+
+    .contact {
+        padding-bottom: 50px;
+    }
+    .subscription,
+    .subscription input {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    .subscription button {
+        width: 100%;
+    }
 }
