@@ -193,3 +193,9 @@ i.fas {
     height: 49px;
     border: 0;
 }
+
+.copyright {
+    background-color: #130034;
+    text-align: center;
+    padding: 10px 0;
+}
