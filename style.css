@@ -167,4 +167,8 @@ nav li {
     margin-right: 0;
 }
 
+/* footer */
+.contact, .subscription {
+    float: left;
+    width: 50%;
 }
