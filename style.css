@@ -125,9 +125,10 @@ nav li {
     padding: 20px 0;
 }
 
-.section-img img {
-    object-fit: cover;
-    width: 100%;
+.section-text a {
+    display: block;
+}
+
     height: 50vh;
 }
 .lineup .section-text,
