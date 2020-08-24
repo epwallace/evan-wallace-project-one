@@ -366,3 +366,14 @@ i.fas {
         width: 100%;
     }
 }
+
+@media (max-width: 460px) {
+    footer li {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    footer li a {
+        font-size: 24px;
+    }
+}
