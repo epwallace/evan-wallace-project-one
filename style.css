@@ -56,6 +56,11 @@ button {
     border: 0;
 }
 
+button:hover,
+button:focus {
+    font-weight: bold;
+}
+
 h3 {
     text-align: center;
     text-transform: lowercase;
@@ -188,6 +193,12 @@ nav li {
 
 .midway-nav a {
     display: block;
+    padding: 5px;
+}
+
+.midway-nav a:hover {
+    color: #3d0369;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 i.fas {
