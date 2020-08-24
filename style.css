@@ -248,6 +248,19 @@ i.fas {
     padding: 10px 0;
 }
 
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 42px;
+    }
+    .section-text {
+        padding: 50px;
+    }
+
+    .section-text p {
+        padding: 20px 0;
+    }
+}
+
 @media (max-width: 800px) {
     a:focus {
         background: rgba(255, 255, 255, 0.5);
@@ -290,14 +303,6 @@ i.fas {
         min-height: unset;
     }
 
-    .section-text {
-        padding: 50px;
-    }
-
-    .section-text p {
-        padding: 20px 0;
-    }
-
     button {
         display: block;
         margin: 0 auto;
@@ -326,6 +331,11 @@ i.fas {
     .midway-nav li:last-child {
         padding-bottom: 0;
     }
+
+    .gallery {
+        padding-top: 50px; 
+    }
+    
     .gallery img {
         width: 47.5%;
     }
